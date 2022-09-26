@@ -1,5 +1,11 @@
-.idea
+.idea/
+.peru/
 *thydev*
+
+# Managed by peru
+src/_global/
+src/conf_global.py
+requirements.txt
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks

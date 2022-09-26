@@ -1,0 +1,7 @@
+imports               :
+  thy_global: ./
+
+git module thy_global:
+  url: https://github.com/thy-playground/rtfd-global.git
+  drop:
+    - .gitignore

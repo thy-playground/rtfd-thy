@@ -1,17 +1,17 @@
 version: 2
 
-sphinx:
+sphinx :
   configuration: src/conf.py
 
-python:
+python :
   install:
-  - requirements: requirements.txt
+    - requirements: requirements.txt
 
 build  :
-  os: ubuntu-22.04
+  os   : ubuntu-22.04
   tools:
-    python: "3.9"
-
-  commands:
-    - git submodule update --init
-    - python -m sphinx -T -E -b html -d _build/doctrees -D language=en . _build/html
+    python: "3.11"
+  jobs :
+    post_create_environment:
+      - pip install peru
+      - peru sync --no-cache

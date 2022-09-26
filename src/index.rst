@@ -1,5 +1,8 @@
-Hello World
+Hello World 1
 
-.. toctree::
+- :doc:`Sphinx <thy_sphinx:index>`
+- :doc:`Reference <thy_reference:index>`
+- :doc:`py3:about`
+- :doc:`sphinx:examples`
 
-    pub/google-cloud-4-words/README.md
+:doc:`1play/index`
